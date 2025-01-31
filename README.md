@@ -1,5 +1,7 @@
-## Code
-### `exploit.py`
+Here is my repo for many of the resources/scripts I used to pass the OffSec Web Expert exam.
+
+### Code
+#### `exploit.py`
 My skeleton script for writing web exploits with python requests.
 
 **Features**:
@@ -36,7 +38,7 @@ for message in server.messages:
 ![image](https://github.com/user-attachments/assets/e6f209bf-4854-41cd-9f80-bee74591ab65)
 
 If you instantiate it like `Callback(port=80, headers=True, serve=True)`, it will print out all of the HTTP headers from each request, and serve files from the cwd of the script.
-## Other resources
+### Other resources
 By no means an extensive list, but a few things that I found helpful
 
 - [Exploit Writing for OSWE](https://github.com/rizemon/exploit-writing-for-oswe): This is an amazing resource that breaks down all of the important concepts for the requests library.
