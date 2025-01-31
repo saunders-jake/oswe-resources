@@ -42,7 +42,7 @@ If you instantiate it like `Callback(port=80, headers=True, serve=True)`, it wil
 ### Other resources
 By no means an extensive list, but a few things that I found helpful
 
-- [Exploit Writing for OSWE](https://github.com/rizemon/exploit-writing-for-oswe): This is an amazing resource that breaks down all of the important concepts for the requests library.
+- [Exploit Writing for OSWE](https://github.com/rizemon/exploit-writing-for-oswe): This is an amazing resource that breaks down all of the important concepts for the python `requests` library.
 - [cURL Converter](https://curlconverter.com/): When you have a request in burpsuite, you can right click it and `copy as a curl command`. Then, put it into this website, and it spits out the python requests equivilent. 
 - [Portswigger XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet): An extensive list of XSS payloads.
 - [Java Runtime Exec Command Generator](https://ares-x.com/tools/runtime-exec/): It can be painful to make your reverse shell payload work with Runtime exec, this website makes it a breeze.
